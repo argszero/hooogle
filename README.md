@@ -3,6 +3,9 @@ hooogle
 
 ## 简介
 
+向虎哥致敬
+    
+
 这是一个运维工具,他有如下特性：
 * 基于SSH远程调用，不需要在应用主机上安装Agent。
 * 基于Web，在浏览器上操作
@@ -25,7 +28,7 @@ hooogle
 
 * 组件应该是js文件。
 * 组件可以引用某个html文件，引用方式是作为字符串，类似dojo的方式。
-* 组件可以直接访问（如何做到？）
- * 定义一个component.html
- * 访问comonent.html?component=xxx
+* 组件可以直接访问
+ * 定义一个widget.html
+ * 访问widget.html?widget=xxx
 
