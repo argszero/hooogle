@@ -80,10 +80,13 @@ define(function(require, exports, module) {
 			},
 			onCommand: function(command) {
 				this.addUniqueHis(command)
-				if (command === "clearhis") {
+				if (command === "help") {
+					this.out("cls: 清屏<br\>");
+					this.out("clearhis: 清空命令历史<cls\>");
+                }else if (command === "clearhis") {
 					this.history = [];
 				}else if( command === "cls"){
-                    this.output.remove()    
+                    this.output.html("")    
                 }
 			}
 		})
