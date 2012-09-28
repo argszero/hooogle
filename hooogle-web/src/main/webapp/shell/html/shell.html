@@ -1,0 +1,30 @@
+<div class="shell shell_body">
+    <div>
+        <div dojoAttachPoint="_outputNode">
+            <div>AIServiceWeaver Node Shell<br></div>
+            <div><br></div>
+        </div>
+
+        <div class="shell_input" style="display: block;">
+            <form action="" class="cmd_form" onsubmit="return false;" name="f">
+                <table class="input_table">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <div dojoAttachPoint="_promptNode" class="less prompt"></div>
+                        </td>
+                        <td class="input_td">
+                            <input type="text"
+                                   value=""
+                                   autocomplete="off"
+                                   class="cmdline"
+                                   dojoAttachPoint="_inputNode"
+                                   dojoAttachEvent="onkeyup:_inputKeyUp"/>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>

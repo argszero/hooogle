@@ -1,0 +1,84 @@
+.shell_body {
+    background: none repeat scroll 0 0 #FFFFFF;
+    font-family: monospace;
+    font-size: 12px;
+    height: 95%;
+    margin: 0;
+    padding: 0;
+    overflow:auto;
+}
+.shell form {
+    margin: 0;
+    padding: 0;
+}
+.shell pre {
+    font-size: 12px;
+}
+.shell br {
+    clear: both;
+}
+.shell :focus {
+    outline: 0 none;
+}
+.cmdline {
+    border-left: 0 none;
+    border-top: 0px solid;
+    border-right: 0 none;
+    border-bottom: 1px solid;
+    border-color: blue;
+    font-family: monospace;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.shell table.input_table {
+    vertical-align: top;
+    width: 100%;
+}
+.shell td.input_td {
+    width: 100%;
+}
+.shell .input {
+    color: #666666;
+    margin-left: 8px;
+    overflow: hidden;
+}
+.shell .output {
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.shell .less {
+    color: #666666;
+}
+.shell .info {
+    color: #009900;
+}
+.shell table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+}
+.shell td {
+    font-family: monospace;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+.shell .help td {
+    font-size: 12px;
+    padding-right: 25px;
+}
+.shell .prompt {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+.shell img {
+    border: medium none;
+}
