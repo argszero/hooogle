@@ -3,15 +3,9 @@ define(function(require, exports, module) {
 	var $ = require('jquery')
 	var cache = require('cache');
 	var path = require('path')
-	var css = require('css')
 	var templateString = cache.get(path.resolve('../html/shell.html', module.uri));
-	function commandLineKeyDown(a, b, c) {
-		if (a.keyCode == 13) {
-			var output = output.append()
-		}
-	}
 	exports.newInstance = function(config) {
-		css.add(path.resolve('../css/shell.css', module.uri))
+        require('shell.css')
 		var shell = $(templateString)
 		$.extend(shell, {
 			command: $('input', shell),

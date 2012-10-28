@@ -9,7 +9,7 @@ import java.io.OutputStream;
 
 /**
  * Created with IntelliJ IDEA.
- * User: shaoaq
+ * Operator: shaoaq
  * Date: 12-9-18
  * Time: 下午6:15
  * To change this template use File | Settings | File Templates.
